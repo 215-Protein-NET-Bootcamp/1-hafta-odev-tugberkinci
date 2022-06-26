@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rcdBaCPZK3dYLoWrYKwRyFX+UG8EudSScd0scuFOkY/IP62OhqDKe9qfkinOszp6Gonj/VQG5OdERToB5cr0Aw==",
+  "dgSpecHash": "xz4pjaecW2SGqPzNksVIThM6wgQEFZZJWUg+aZXnt3Gb8yTOLaE+RgJ+uTjRFa+7Fsolv7zyqjrxN9NvDNJ22Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rasim\\source\\repos\\PatikaExample1\\PatikaExample1\\PatikaExample1.csproj",
+  "projectFilePath": "C:\\Users\\rasim\\Desktop\\patikaÖdev1\\1-hafta-odev-tugberkinci\\PatikaExample1\\PatikaExample1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rasim\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rasim\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
