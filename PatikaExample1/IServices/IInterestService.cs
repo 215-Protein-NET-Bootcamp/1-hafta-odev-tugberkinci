@@ -2,5 +2,6 @@
 {
     public interface IInterestService
     {
+        object CalculateInterest(double? interestRate, int? totalAmount, int? period);
     }
 }

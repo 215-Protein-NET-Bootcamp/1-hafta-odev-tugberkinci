@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PatikaExample1</name>
+    </assembly>
+    <members>
+        <member name="M:PatikaExample1.Controllers.InterestController.CalculateInterest(System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            
+            </summary>
+            <param name="interestRate">(Faiz oranı)</param>
+            <param name="totalAmount">(Ana Para)</param>
+            <param name="period">(Yıl)</param>
+            <returns></returns>
+            <response code="200">Retuns data </response>
+            <response code="400">Returns error</response>
+        </member>
+        <member name="M:PatikaExample1.Services.InterestService.CalculateInterest(System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            This method calculates the interest. If interest rate is null, current TCMB interest rate will be use for calculation
+            I have been use A = P+(P*r*t) formul for calculating interest.
+            </summary>
+            <param name="interestRate"></param>
+            <param name="totalAmount"></param>
+            <param name="period">Year</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
