@@ -1,4 +1,5 @@
-﻿using PatikaExample1.IServices;
+﻿using Microsoft.Extensions.Options;
+using PatikaExample1.IServices;
 using PatikaExample1.Models;
 //using InterestRate = 14.00 ;
 namespace PatikaExample1.Services
@@ -6,8 +7,15 @@ namespace PatikaExample1.Services
     
     public class InterestService : IInterestService
     {
-        //This rate is current TCMB interest rate.
+        //This rate is current TCMB interest rate. Bunu app
         private const double interestRate = 14.00;
+
+        private readonly InterestConfig _interestConfig;
+
+        public InterestService(IOptions<InterestConfig> interestConfig)
+        {
+            _interestConfig = interestConfig.Value;
+        }
 
         /// <summary>
         /// This method calculates the interest. If interest rate is null, current TCMB interest rate will be use for calculation
@@ -19,6 +27,7 @@ namespace PatikaExample1.Services
         /// <returns></returns>
         public object CalculateInterest(double? interestRate , int? totalAmount , int? period)
         {
+            var inter = _interestConfig.Rate;
             if(interestRate == null)
                 interestRate = InterestService.interestRate;
             if (totalAmount == null || totalAmount <= 0)

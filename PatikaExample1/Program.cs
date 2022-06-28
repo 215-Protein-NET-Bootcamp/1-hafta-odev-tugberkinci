@@ -1,5 +1,6 @@
 using Microsoft.OpenApi.Models;
 using PatikaExample1.IServices;
+using PatikaExample1.Models;
 using PatikaExample1.Services;
 using System.Reflection;
 
@@ -10,6 +11,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 builder.Services.AddScoped<IInterestService,InterestService>();
+
+builder.Services.Configure<InterestConfig>(builder.Configuration.GetSection("InterestConfig"));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
