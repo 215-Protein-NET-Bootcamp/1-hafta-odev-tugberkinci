@@ -7,8 +7,7 @@ namespace PatikaExample1.Services
     
     public class InterestService : IInterestService
     {
-        //This rate is current TCMB interest rate. Bunu app
-        private const double interestRate = 14.00;
+        
 
         private readonly InterestConfig _interestConfig;
 
@@ -27,9 +26,9 @@ namespace PatikaExample1.Services
         /// <returns></returns>
         public object CalculateInterest(double? interestRate , int? totalAmount , int? period)
         {
-            var inter = _interestConfig.Rate;
+            var configValue = _interestConfig.Rate;
             if(interestRate == null)
-                interestRate = InterestService.interestRate;
+                interestRate = configValue;
             if (totalAmount == null || totalAmount <= 0)
                 return new ArgumentNullException("Total Amount can not be null or negative");
             if (period == null || period <= 0)
@@ -51,17 +50,12 @@ namespace PatikaExample1.Services
 
             };
 
-            //var data = Enumerable.Range(0, (int)(endDate - startDate).M + 1)
-            //          .Select(x => startDate.AddDays(x))
-            //          .ToList();
-
-
 
 
             return null;
 
         }
 
-        //private object Validation()
+     
     }
 }

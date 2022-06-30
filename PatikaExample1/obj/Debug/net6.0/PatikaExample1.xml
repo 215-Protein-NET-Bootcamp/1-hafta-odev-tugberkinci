@@ -6,7 +6,7 @@
     <members>
         <member name="M:PatikaExample1.Controllers.InterestController.CalculateInterest(System.Nullable{System.Double},System.Nullable{System.Int32},System.Nullable{System.Int32})">
             <summary>
-            
+            Calculate method
             </summary>
             <param name="interestRate">(Faiz oranı)</param>
             <param name="totalAmount">(Ana Para)</param>

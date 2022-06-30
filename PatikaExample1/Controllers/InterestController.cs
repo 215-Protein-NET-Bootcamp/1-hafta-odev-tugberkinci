@@ -17,7 +17,7 @@ namespace PatikaExample1.Controllers
 
 
         /// <summary>
-        /// 
+        /// Calculate method
         /// </summary>
         /// <param name="interestRate">(Faiz oranı)</param>
         /// <param name="totalAmount">(Ana Para)</param>
