@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xz4pjaecW2SGqPzNksVIThM6wgQEFZZJWUg+aZXnt3Gb8yTOLaE+RgJ+uTjRFa+7Fsolv7zyqjrxN9NvDNJ22Q==",
+  "dgSpecHash": "0HoP5W/Q102H6e693PZjzY1iFOnHqDNRtqZYL2OVe9T0pB9XTBSX2lxFwAoYjrWCZyIKAywic/0I5Ym2VlczyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\rasim\\Desktop\\patikaÖdev1\\1-hafta-odev-tugberkinci\\PatikaExample1\\PatikaExample1.csproj",
+  "projectFilePath": "C:\\Users\\rasim\\Desktop\\Yeni klasör (5)\\.Net-6.0-Simple-Web-Api-PatikaCase1-\\PatikaExample1\\PatikaExample1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rasim\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\rasim\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

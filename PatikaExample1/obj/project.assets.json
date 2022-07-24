@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rasim\\Desktop\\patikaÖdev1\\1-hafta-odev-tugberkinci\\PatikaExample1\\PatikaExample1.csproj",
+      "projectUniqueName": "C:\\Users\\rasim\\Desktop\\Yeni klasör (5)\\.Net-6.0-Simple-Web-Api-PatikaCase1-\\PatikaExample1\\PatikaExample1.csproj",
       "projectName": "PatikaExample1",
-      "projectPath": "C:\\Users\\rasim\\Desktop\\patikaÖdev1\\1-hafta-odev-tugberkinci\\PatikaExample1\\PatikaExample1.csproj",
+      "projectPath": "C:\\Users\\rasim\\Desktop\\Yeni klasör (5)\\.Net-6.0-Simple-Web-Api-PatikaCase1-\\PatikaExample1\\PatikaExample1.csproj",
       "packagesPath": "C:\\Users\\rasim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rasim\\Desktop\\patikaÖdev1\\1-hafta-odev-tugberkinci\\PatikaExample1\\obj\\",
+      "outputPath": "C:\\Users\\rasim\\Desktop\\Yeni klasör (5)\\.Net-6.0-Simple-Web-Api-PatikaCase1-\\PatikaExample1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
